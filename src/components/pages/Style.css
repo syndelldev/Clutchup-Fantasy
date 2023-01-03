@@ -1,0 +1,109 @@
+.user-input-wrp {
+	position: relative;
+	width: 100%;
+}
+.user-input-wrp .inputText{
+	width: 100%;
+    outline: none;
+    padding-left: 13px;
+    height: 50px;
+	padding-top: 10px;
+}
+.user-input-wrp .floating-label {
+	position: absolute;
+	pointer-events: none;
+	top: 35px;
+	left: 10px;
+	transition: 0.2s ease all;
+    color: #757575;
+    
+}
+.user-input-wrp input:focus ~ .floating-label,
+.user-input-wrp input:not(:focus):valid ~ .floating-label{
+	top: 25px;
+	left: 10px;
+	font-size: 0.625rem !important;
+	opacity: 1;
+}
+.user-input-wrp .floating-labels {
+	position: absolute;
+	pointer-events: none;
+	top: 35px;
+	left: 10px;
+	transition: 0.2s ease all;
+    color: #757575;
+    
+}
+.user-input-wrp input:focus ~ .floating-labels,
+.user-input-wrp input:not(:focus):valid ~ .floating-labels{
+	top: 25px;
+	left: 10px;
+	font-size: 0.625rem !important;
+	opacity: 1;
+}
+input{
+    border: 1px solid #C2C2C2;
+    border-radius: 6px;
+}
+.btn2{
+    width: 100%;
+    margin-top: 10%;
+    padding: 0%;
+}
+.form-outline{
+    width: 100%;
+}
+
+
+
+/* ========================== Registrationscreen  ============================ */
+.tablerow {
+  width: 100%;
+}
+.button-contenor{
+  padding-top: 10%;
+}
+
+input[type=checkbox] + label {
+  display: block;
+  margin: 0.2em;
+  cursor: pointer;
+  padding: 0.2em;
+  font-family: 'GalanoGrotesque';
+  color: #757575;
+  font-size: 14px;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+input[type=checkbox] + label:before {
+  content: "\2714";
+    border: 0.1em solid #C2C2C2;
+    border-radius: 0.2em;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    padding-left: -0.9em;
+    padding-bottom: 0.3em;
+    margin-right: 0.2em;
+    vertical-align: bottom;
+    color: transparent;
+    transition: .2s;
+    
+}
+
+input[type=checkbox] + label:active:before {
+  transform: scale(0);
+}
+
+input[type=checkbox]:checked + label:before {
+  background-color: #E5007D;
+  border-color: #C2C2C2;
+  color: #fff;
+  
+}
+
+
+

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">ClutchUpApp</string>
+    <string name="title_activity_main">ClutchUpApp</string>
+    <string name="package_name">com.clutchupapp.clutchup</string>
+    <string name="custom_url_scheme">com.clutchupapp.clutchup</string>
+</resources>
