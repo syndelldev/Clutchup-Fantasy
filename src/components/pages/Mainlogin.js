@@ -75,7 +75,7 @@ export default function () {
               password: password,
             });
             //console.log("asd",error.message);
-            console.log("wrkel",error.message);
+            // console.log("wrkel",error.message);
             // if (error) alert("Please enter correct email id and password");
             if (!error) {
               history.push({
@@ -151,7 +151,7 @@ export default function () {
               password: password,
             });
             //console.log("asd",error.message);
-            console.log("wrkel",error.message);
+            // console.log("wrkel",error.message);
             // if (error) alert("Please enter correct email id and password");
             if (!error) {
               history.push({
